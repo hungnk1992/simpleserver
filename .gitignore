@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+#ignore bazel default generation
+.vscode
+bazel-*
+
+#ignore xcode setup
+SimpleServer.xcodeproj
