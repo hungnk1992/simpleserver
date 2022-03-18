@@ -6,3 +6,8 @@ cc_library(
     hdrs = ["Server.h"],
     visibility = ["//SimpleServer:__pkg__"],
 )
+
+cc_binary(
+    name = "client",
+    srcs = ["Client.cpp"],
+)

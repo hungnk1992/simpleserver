@@ -11,7 +11,13 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     Server s;
-    s.setup();
+    s.init();
+
+    //actual main loop
+	while(true)
+	{
+		s.loop();
+	}
     
     return 0;
 }
